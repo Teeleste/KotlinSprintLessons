@@ -7,8 +7,8 @@ package org.example.lesson_1
  */
 
 fun main() {
-    var numberOfOrders = 69
-    val thxMessage = "Спасибо за заказ! Обязательно возвращайтесь еще раз."
+    var numberOfOrders: Int = 69
+    val thxMessage: String = "Спасибо за заказ! Обязательно возвращайтесь еще раз."
 
     println(thxMessage)
 }

@@ -12,4 +12,5 @@ fun main() {
     println(allSalaryOfEmployees)
     println(generalExpenses)
     println(averageExpenses)
+
 }

@@ -1,10 +1,15 @@
 package org.example.lesson_1
 
+const val constantTime = 60
+
 fun main(){
     var secondInSpace: Int = 6480
-    val hourInSpace = secondInSpace / 60 / 60
-    val minuteInSpace = secondInSpace / 60 - (60 * hourInSpace)
-    secondInSpace -= ((60 * hourInSpace + minuteInSpace) * 60)
+    val hourInSpace = secondInSpace / constantTime / constantTime
 
-    print("0" + hourInSpace + ":" + minuteInSpace + ":" + "0" + secondInSpace)
+    val minuteInSpace = secondInSpace / constantTime - (constantTime * hourInSpace)
+    secondInSpace -= ((constantTime * hourInSpace + minuteInSpace) * constantTime)
+
+    val timeFormat = String.format("0%d:%d:%d0", hourInSpace, minuteInSpace, secondInSpace)
+
+    print(timeFormat)
 }

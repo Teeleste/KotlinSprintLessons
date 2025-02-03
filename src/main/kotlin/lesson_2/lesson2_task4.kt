@@ -1,6 +1,7 @@
 package org.example.lesson_2
 
 fun main() {
+
     val crystalsWithoutBuff = 7
     val ironsWithoutBuff = 11
     val buff: Float = 1.2f
@@ -10,4 +11,5 @@ fun main() {
     val wholeIrons: Int = bonusIrons.toInt()
     println("Количество дополнительных кристаллов = " + wholeCrystals)
     println("Количество дополнительной железной руды = " + wholeIrons)
+
 }

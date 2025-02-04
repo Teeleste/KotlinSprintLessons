@@ -5,6 +5,6 @@ fun main() {
     val percent = 16.7
     val period = 20.0
 
-    val finisAmount = startingAmount*(Math.pow((1+percent/100), period))
-    print(String.format("%.3f", finisAmount))
+    val finishAmount = startingAmount*(Math.pow((1+percent/100), period))
+    print(String.format("%.3f", finishAmount))
 }

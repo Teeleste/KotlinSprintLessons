@@ -4,10 +4,10 @@ fun main() {
 
     val crystalsWithoutBuff = 7
     val ironsWithoutBuff = 11
-    val buff: Float = 1.2f
-    val bonusCrystals = (crystalsWithoutBuff * buff - crystalsWithoutBuff)
+    val buff = 20
+    val bonusCrystals = ((crystalsWithoutBuff * buff) / 100)
     val wholeCrystals: Int = bonusCrystals.toInt()
-    val bonusIrons = (ironsWithoutBuff * buff - ironsWithoutBuff)
+    val bonusIrons = ((ironsWithoutBuff * buff) / 100)
     val wholeIrons: Int = bonusIrons.toInt()
     println("Количество дополнительных кристаллов = " + wholeCrystals)
     println("Количество дополнительной железной руды = " + wholeIrons)

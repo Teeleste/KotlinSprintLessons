@@ -10,5 +10,5 @@ fun main() {
     val availabilityToday = bookingToday < NUMBER_TABLES
     val availabilityTomorrow = bookingTomorrow < NUMBER_TABLES
 
-    print("Доступность столиков на сегодня: $availabilityToday \nДоступность столиков на завтра: $availabilityTomorrow ")
+    print("Доступность столиков на сегодня: $availabilityToday \nДоступность столиков на завтра: $availabilityTomorrow")
 }

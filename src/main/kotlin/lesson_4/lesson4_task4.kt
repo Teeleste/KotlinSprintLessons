@@ -4,14 +4,12 @@ fun main() {
 
     val day = 6
 
-    val handsAbsDay: Boolean = day % 2 != 0
-
     println(
         """
-        Упражнения для рук: $handsAbsDay
-        Упражнения для ног: ${!handsAbsDay}
-        Упражнения для спины: ${!handsAbsDay}
-        Упражнения для пресса: $handsAbsDay
+        Упражнения для рук: ${day % 2 != 0}
+        Упражнения для ног: ${day % 2 == 0}
+        Упражнения для спины: ${day % 2 == 0}
+        Упражнения для пресса: ${day % 2 != 0}
         """.trimIndent()
     )
 

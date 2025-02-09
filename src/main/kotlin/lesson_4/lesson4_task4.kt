@@ -2,6 +2,7 @@ package org.example.lesson_4
 
 fun main() {
 
+
     val day = 6
 
     println(

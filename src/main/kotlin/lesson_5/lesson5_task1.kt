@@ -1,9 +1,11 @@
 package org.example.lesson_5
 
 fun main() {
-    println("Для доступа решите пример: 5 + 2")
+    val firstNumber = 5
+    val secondNumber = 2
+    println("Для доступа решите пример: $firstNumber + $secondNumber")
     val answer = readln().toInt()
-    if (answer == 7) {
+    if (answer == firstNumber + secondNumber) {
         print("Добро пожаловать!")
     }
     else{
